@@ -40,9 +40,9 @@ export default function App() {
   return (
     <div style={styles.page}>
       <div style={styles.card}>
-        <h1 style={styles.title}>🎉 CEO Wedding Anniversary Wish Generator</h1>
+        <h1 style={styles.title}>CEO Wedding Anniversary Wish Generator</h1>
         <p style={styles.subtitle}>
-          Because respect is high… but wallet balance is low 😄
+          Because respect is high… but wallet balance is low
         </p>
 
         <div style={styles.buttonRow}>
@@ -50,7 +50,7 @@ export default function App() {
             style={{ ...styles.button, ...styles.primaryBtn }}
             onClick={() => setShowCode(!showCode)}
           >
-            {showCode ? "Hide Message" : "Generate Funny Java Message"}
+            {showCode ? "Hide Message" : "Generate Anniversary Wishes"}
           </button>
 
           {showCode && (
